@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:active {
+  color: #EE7100;
+}
+
+a:disabled {
+  color: #FFB16A;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 75em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*
+:::    ::: ::::::::::     :::     :::::::::  :::::::::: :::::::::
+:+:    :+: :+:          :+: :+:   :+:    :+: :+:        :+:    :+:
++:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+
++#++:++#++ +#++:++#   +#++:++#++: +#+    +:+ +#++:++#   +#++:++#:
++#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+
+#+#    #+# #+#        #+#     #+# #+#    #+# #+#        #+#    #+#
+###    ### ########## ###     ### #########  ########## ###    ###
+*/
+.header {
+  display: flex;
+  height: 60px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 10em;
+  height: 22px;
+}
+
+.header__menu {
+  width: 18em;
+}
+
+.menu__items {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.menu__item {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.menu__item--link:active {
+  color: #EE7100;
+}
+
+.menu__item--link:disabled {
+  color: #FFB16A;
+}
+
+.header__room {
+  width: 24.75em;
+  display: flex;
+}
+
+.header__room-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.requs {
+  font-weight: 400;
+}
+
+
+.tel__icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+
+.mail {
+  text-decoration-line: underline;
+}
+
+.mail__icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+
+.regist {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.log__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  width: 6em;
+  height: 40px;
+  background: #F57706;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.log__item:active {
+  background: #EE7100;
+}
+
+.log__item:disabled {
+  background: #FFB16A;
+}
+
+/*
+:::::::::  :::    :::  :::::::: ::::::::::: ::::    ::: :::::::::: ::::::::   ::::::::
+:+:    :+: :+:    :+: :+:    :+:    :+:     :+:+:   :+: :+:       :+:    :+: :+:    :+:
++:+    +:+ +:+    +:+ +:+           +:+     :+:+:+  +:+ +:+       +:+        +:+
++#++:++#+  +#+    +:+ +#++:++#++    +#+     +#+ +:+ +#+ +#++:++#  +#++:++#++ +#++:++#++
++#+    +#+ +#+    +#+        +#+    +#+     +#+  +#+#+# +#+              +#+        +#+
+#+#    #+# #+#    #+# #+#    #+#    #+#     #+#   #+#+# #+#       #+#    #+# #+#    #+#
+#########   ########   ######## ########### ###    #### ########## ########   ########
+*/
+.business {
+  background-color: #FFF1E2;
+  height: 517px;
+}
+
+.business__content {
+  width: 34.7em;
+}
+
+.business__title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 130%;
+}
+
+.business__subtitle {
+  width: 25em;
+  font-size: 18px;
+  line-height: 175%;
+}
+
+.business__list-items {
+  font-size: 16px;
+  line-height: 174.4%;
+  list-style-image: url('../icons/check-mark.svg');
+}
+
+.business__start-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+  border: none;
+  color: #fff;
+  width: 140px;
+  height: 40px;
+  background: #FF7B1B;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.business__start-btn:active {
+  background: #EE7100;
+}
+
+.business__start-btn:disabled {
+  background: #FFB16A;
+}
+
+.business__img {
+  width: 36.8em;
+}
