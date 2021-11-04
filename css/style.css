@@ -202,13 +202,13 @@ body {
 }
 
 /*
-::::::::: ::::::::::: :::::::::  :::::::::: :::::::: ::::::::::: ::::::::::: ::::::::  ::::    :::
-:+:    :+:    :+:     :+:    :+: :+:       :+:    :+:    :+:         :+:    :+:    :+: :+:+:   :+:
-+:+    +:+    +:+     +:+    +:+ +:+       +:+           +:+         +:+    +:+    +:+ :+:+:+  +:+
-+#+    +:+    +#+     +#++:++#:  +#++:++#  +#+           +#+         +#+    +#+    +:+ +#+ +:+ +#+
-+#+    +#+    +#+     +#+    +#+ +#+       +#+           +#+         +#+    +#+    +#+ +#+  +#+#+#
-#+#    #+#    #+#     #+#    #+# #+#       #+#    #+#    #+#         #+#    #+#    #+# #+#   #+#+#
-######### ########### ###    ### ########## ########     ###     ########### ########  ###    #### ########## ##########
+::::::::: ::::::::::: :::::::::  :::::::::: :::::::: ::::::::::: ::::::::::: ::::::::  ::::    :::  ::::::::
+:+:    :+:    :+:     :+:    :+: :+:       :+:    :+:    :+:         :+:    :+:    :+: :+:+:   :+: :+:    :+:
++:+    +:+    +:+     +:+    +:+ +:+       +:+           +:+         +:+    +:+    +:+ :+:+:+  +:+ +:+
++#+    +:+    +#+     +#++:++#:  +#++:++#  +#+           +#+         +#+    +#+    +:+ +#+ +:+ +#+ +#++:++#++
++#+    +#+    +#+     +#+    +#+ +#+       +#+           +#+         +#+    +#+    +#+ +#+  +#+#+#        +#+
+#+#    #+#    #+#     #+#    #+# #+#       #+#    #+#    #+#         #+#    #+#    #+# #+#   #+#+# #+#    #+#
+######### ########### ###    ### ########## ########     ###     ########### ########  ###    ####  ########
 
 
 
@@ -216,13 +216,13 @@ body {
 
 
 
-::::::::: ::::::::::: ::::    :::  ::::::::
-:+:    :+:    :+:     :+:+:   :+: :+:    :+:
-+:+    +:+    +:+     :+:+:+  +:+ +:+
-+#++:++#+     +#+     +#+ +:+ +#+ +#++:++#++
-+#+    +#+    +#+     +#+  +#+#+#        +#+
-#+#    #+#    #+#     #+#   #+#+# #+#    #+#
-#########     ###     ###    ####  ########
+                      ::::::::: ::::::::::: ::::    :::  ::::::::
+                      :+:    :+:    :+:     :+:+:   :+: :+:    :+:
+                      +:+    +:+    +:+     :+:+:+  +:+ +:+
+                      +#++:++#+     +#+     +#+ +:+ +#+ +#++:++#++
+                      +#+    +#+    +#+     +#+  +#+#+#        +#+
+                      #+#    #+#    #+#     #+#   #+#+# #+#    #+#
+########## ########## #########     ###     ###    ####  ########
 */
 
 .directions__btns {
@@ -362,4 +362,178 @@ body {
   z-index: 1;
   position: relative;
 
+}
+
+/*
+                      ::::::::   ::::::::  ::::    ::: ::::::::::: :::::::::: ::::    ::: :::::::::::
+                     :+:    :+: :+:    :+: :+:+:   :+:     :+:     :+:        :+:+:   :+:     :+:
+                     +:+        +:+    +:+ :+:+:+  +:+     +:+     +:+        :+:+:+  +:+     +:+
+                     +#+        +#+    +:+ +#+ +:+ +#+     +#+     +#++:++#   +#+ +:+ +#+     +#+
+                     +#+        +#+    +#+ +#+  +#+#+#     +#+     +#+        +#+  +#+#+#     +#+
+                     #+#    #+# #+#    #+# #+#   #+#+#     #+#     #+#        #+#   #+#+#     #+#
+########## ########## ########   ########  ###    ####     ###     ########## ###    ####     ###
+*/
+
+
+.container--salersmans {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75em;
+  margin: 30px auto;
+}
+
+.product__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.product__contant {
+  max-width: 50%;
+
+}
+
+.product__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 130%;
+}
+
+.product__subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  color: #FF7B1B;
+}
+
+
+.product__list-items {
+  list-style-image: url('../icons/check-mark.svg');
+  list-style-position: inside;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 174.4%;
+}
+
+.product__list-item {
+  font-size: 14px;
+  line-height: 174.4%;
+  margin-bottom: 18px;
+}
+
+.product__img {
+  max-width: 50%;
+}
+
+.brand__container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.brand__img {
+  width: 50%;
+}
+
+.brand__contant {
+  width: 50%;
+  height: auto;
+}
+
+.brand__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130.4%;
+  letter-spacing: 0.005em;
+}
+
+.brand__text {
+  font-size: 16px;
+  line-height: 175%;
+}
+
+
+.competitors__container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.competitors__contant {
+  width: 50%;
+
+}
+
+.competitors__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130.4%;
+  letter-spacing: 0.005em;
+}
+
+.competitors__text {
+  font-size: 16px;
+  line-height: 175%;
+}
+
+.competitors__img {
+  width: 50%;
+}
+
+
+.sales__container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.sales__img {
+  width: 50%;
+}
+
+.sales__contant {
+  width: 50%;
+  padding-top: auto;
+}
+
+.sales__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130.4%;
+  letter-spacing: 0.005em;
+}
+
+
+.sales__list-items {
+  font-size: 16px;
+  line-height: 175%;
+  list-style-image: url('../icons/check-mark-blue.svg');
+}
+
+.sales__iist-item {
+  margin-bottom: 10px;
+}
+
+.try-free {
+  margin: 0 auto;
+  width: 301px;
+  height: 45px;
+  color: #fff;
+  background: #FF7B1B;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.try-free:active {
+  background: #EE7100;
+}
+
+.try-free:disabled {
+  background: #FFB16A;
 }
