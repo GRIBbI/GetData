@@ -375,6 +375,18 @@ body {
 */
 
 
+
+/*
+               ::::::::      :::     :::        :::::::::: :::::::::   ::::::::
+              :+:    :+:   :+: :+:   :+:        :+:        :+:    :+: :+:    :+:
+              +:+         +:+   +:+  +:+        +:+        +:+    +:+ +:+
++#++:++#++:++ +#++:++#++ +#++:++#++: +#+        +#++:++#   +#++:++#:  +#++:++#++
+                     +#+ +#+     +#+ +#+        +#+        +#+    +#+        +#+
+              #+#    #+# #+#     #+# #+#        #+#        #+#    #+# #+#    #+#
+               ########  ###     ### ########## ########## ###    ###  ########
+*/
+
+
 .container--salersmans {
   display: flex;
   flex-wrap: wrap;
@@ -382,25 +394,32 @@ body {
   margin: 30px auto;
 }
 
-.product__container {
+.topic-1__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
 }
 
-.product__contant {
-  max-width: 50%;
+.topic-1__contant {
+  max-width: 48%;
 
 }
 
-.product__title {
+.topic-1__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130.4%;
+  letter-spacing: 0.005em;
+}
+
+.topic-1__title--widht {
   font-weight: bold;
   font-size: 30px;
   line-height: 130%;
 }
 
-.product__subtitle {
+.topic-1__subtitle {
   font-weight: 600;
   font-size: 16px;
   line-height: 175%;
@@ -408,97 +427,104 @@ body {
 }
 
 
-.product__list-items {
+.topic-1__list-items,
+.topic-2__list-items,
+.topic-3__list-items,
+.topic-4__list-items,
+.topic-5__list-items {
   list-style-image: url('../icons/check-mark.svg');
-  list-style-position: inside;
-  padding: 0;
+  list-style-position: outside;
+  padding-left: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 174.4%;
 }
 
-.product__list-item {
+.topic-1__list-item {
   font-size: 14px;
   line-height: 174.4%;
   margin-bottom: 18px;
 }
 
-.product__img {
-  max-width: 50%;
+.topic-1__img {
+  max-width: 48%;
 }
 
-.brand__container {
+.topic-2__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 
-.brand__img {
-  width: 50%;
+.topic-2__img {
+  max-width: 48%;
 }
 
-.brand__contant {
-  width: 50%;
+.topic-2__contant {
+  max-width: 48%;
   height: auto;
 }
 
-.brand__title {
+.topic-2__title {
   font-weight: 600;
   font-size: 20px;
   line-height: 130.4%;
   letter-spacing: 0.005em;
 }
 
-.brand__text {
+.topic-2__text {
   font-size: 16px;
   line-height: 175%;
 }
 
 
-.competitors__container {
+.topic-3__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 
-.competitors__contant {
-  width: 50%;
+.topic-3__contant {
+  max-width: 48%;
 
 }
 
-.competitors__title {
+.topic-3__title {
   font-weight: 600;
   font-size: 20px;
   line-height: 130.4%;
   letter-spacing: 0.005em;
 }
 
-.competitors__text {
+.topic-3__text {
   font-size: 16px;
   line-height: 175%;
 }
 
-.competitors__img {
-  width: 50%;
+.topic-3__img {
+  max-width: 48%;
 }
 
 
-.sales__container {
+.topic-4__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 40px;
 }
 
-.sales__img {
-  width: 50%;
+.topic-4__img {
+  max-width: 48%;
 }
 
-.sales__contant {
-  width: 50%;
+.topic-4__contant {
+  max-width: 48%;
   padding-top: auto;
 }
 
-.sales__title {
+.topic-4__title {
   font-weight: 600;
   font-size: 20px;
   line-height: 130.4%;
@@ -506,13 +532,14 @@ body {
 }
 
 
-.sales__list-items {
+.topic-4__list-items--blue {
+  padding-left: 20px;
   font-size: 16px;
   line-height: 175%;
   list-style-image: url('../icons/check-mark-blue.svg');
 }
 
-.sales__iist-item {
+.topic-4__iist-item {
   margin-bottom: 10px;
 }
 
@@ -536,4 +563,141 @@ body {
 
 .try-free:disabled {
   background: #FFB16A;
+}
+
+
+/*
+                            ::::    ::::      :::     ::::    ::: :::    ::: ::::::::::   :::      :::::::: :::::::::::
+                            +:+:+: :+:+:+   :+: :+:   :+:+:   :+: :+:    :+: :+:        :+: :+:   :+:    :+:    :+:
+                            +:+ +:+:+ +:+  +:+   +:+  :+:+:+  +:+ +:+    +:+ +:+       +:+   +:+  +:+           +:+
++#++:++#++:++ +#++:++#++:++ +#+  +:+  +#+ +#++:++#++: +#+ +:+ +#+ +#+    +:+ :#::+::# +#++:++#++: +#+           +#+
+                            +#+       +#+ +#+     +#+ +#+  +#+#+# +#+    +#+ +#+      +#+     +#+ +#+           +#+
+                            #+#       #+# #+#     #+# #+#   #+#+# #+#    #+# #+#      #+#     #+# #+#    #+#    #+#
+                            ###       ### ###     ### ###    ####  ########  ###      ###     ###  ########     ###
+*/
+
+
+.container--manufacturer {
+  display: flex;
+  display: none;
+  flex-wrap: wrap;
+  width: 75em;
+  margin: 30px auto;
+}
+
+.topic-5__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.topic-5__contant {
+  max-width: 48%;
+
+}
+
+.topic-5__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130.4%;
+  letter-spacing: 0.005em;
+}
+
+.topic-5__text {
+  font-size: 16px;
+  line-height: 175%;
+}
+
+.topic-5__img {
+  max-width: 48%;
+}
+
+/*
+                             :::::::: ::::::::::: ::::::::  :::::::::  ::::::::::
+                            :+:    :+:    :+:    :+:    :+: :+:    :+: :+:
+                            +:+           +:+    +:+    +:+ +:+    +:+ +:+
++#++:++#++:++ +#++:++#++:++ +#++:++#++    +#+    +#+    +:+ +#++:++#:  +#++:++#
+                                   +#+    +#+    +#+    +#+ +#+    +#+ +#+
+                            #+#    #+#    #+#    #+#    #+# #+#    #+# #+#
+                             ########     ###     ########  ###    ### ##########
+*/
+
+
+.container--online-store {
+  display: flex;
+  display: none;
+  flex-wrap: wrap;
+  width: 75em;
+  margin: 30px auto;
+
+}
+
+.topic-1__list-items--blue {
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 175%;
+  list-style-image: url('../icons/check-mark-blue.svg');
+}
+
+
+/*
+    :::     ::::    :::     :::     :::        ::::::::::: ::::::::::: ::::::::::: ::::::::
+  :+: :+:   :+:+:   :+:   :+: :+:   :+:            :+:         :+:         :+:    :+:    :+:
+ +:+   +:+  :+:+:+  +:+  +:+   +:+  +:+            +:+         +:+         +:+    +:+
++#++:++#++: +#+ +:+ +#+ +#++:++#++: +#+            +#+         +#+         +#+    +#+
++#+     +#+ +#+  +#+#+# +#+     +#+ +#+            +#+         +#+         +#+    +#+
+#+#     #+# #+#   #+#+# #+#     #+# #+#            #+#         #+#         #+#    #+#    #+#
+###     ### ###    #### ###     ### ########## ###########     ###     ########### ########
+*/
+
+
+.analitic__content {
+  height: 357px;
+  background: #FFF1E2;
+  display: flex;
+  align-items: center;
+}
+
+.analitic__container {
+  margin: 0 auto;
+  width: 52.8em;
+  height: 211px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.analitic__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.analitic__text {
+  font-size: 16px;
+  line-height: 170%;
+  text-align: center;
+}
+
+.analitic__items {
+  display: flex;
+  justify-content: space-between;
+  width: 36.6em;
+}
+
+.analitic__item {
+  position: relative;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 174.4%;
+}
+
+.analitic__items li::before {
+  content: url(/icons/analitic-mark.svg);
+  height: 25px;
+  position: absolute;
+  left: -35px;
 }
