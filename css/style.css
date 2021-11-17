@@ -1407,7 +1407,6 @@ body {
   letter-spacing: 0.05em;
 }
 
-.mailine__form {}
 
 .email-input {
   padding-left: 20px;
@@ -1447,4 +1446,71 @@ body {
   border: 2px solid #FFB16A;
   background: #FFFFFF;
   color: #FFB16A;
+}
+
+
+
+/*
+ ::::::::  :::    ::: :::::::::: :::::::: ::::::::::: ::::::::::: ::::::::  ::::    :::  ::::::::
+:+:    :+: :+:    :+: :+:       :+:    :+:    :+:         :+:    :+:    :+: :+:+:   :+: :+:    :+:
++:+    +:+ +:+    +:+ +:+       +:+           +:+         +:+    +:+    +:+ :+:+:+  +:+ +:+
++#+    +:+ +#+    +:+ +#++:++#  +#++:++#++    +#+         +#+    +#+    +:+ +#+ +:+ +#+ +#++:++#++
++#+  # +#+ +#+    +#+ +#+              +#+    +#+         +#+    +#+    +#+ +#+  +#+#+#        +#+
+#+#   +#+  #+#    #+# #+#       #+#    #+#    #+#         #+#    #+#    #+# #+#   #+#+# #+#    #+#
+ ###### ### ########  ########## ########     ###     ########### ########  ###    ####  ########
+*/
+
+
+
+.questions {
+  margin-top: 100px;
+}
+
+.questions__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.questions__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+}
+
+.questions__content {
+  width: 1100px;
+}
+
+.questions__item {
+  padding: 25px 0;
+  border-bottom: 1px solid #D7D7D7;
+  list-style-image: url(/icons/questions-plus.svg);
+  list-style-type: none;
+  list-style-position: calc(10px+20px);
+  cursor: pointer;
+}
+
+.questions__item:hover {
+  border-bottom: 1px solid #FFB16A;
+  filter: drop-shadow(10px 5px 15px rgba(115, 121, 248, 0.2));
+}
+
+.questions__item:hover {
+  color: #FFB16A;
+  list-style-image: url(/icons/questions-plus-ora.svg);
+
+}
+
+.questions__item-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.questions__item-text {
+  font-size: 14px;
+  line-height: 170%;
+  color: #000 !important;
 }
