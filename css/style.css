@@ -2034,9 +2034,12 @@ footer {
     transform: translateY(-50%) rotate(-45deg);
   }
 
-  /* body {
+  /*-------burger-menu--------*/
+
+  .menu-body {
     overflow: hidden;
-  } */
+    padding: 0;
+  }
 
   .burger-menu {
     background-color: #fff;
@@ -2045,6 +2048,10 @@ footer {
     position: fixed;
     z-index: 10;
     display: none;
+  }
+
+  .menu__active {
+    display: block;
   }
 
   .burger__menu-container {
