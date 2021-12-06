@@ -1,3 +1,3 @@
 # GetData
 
-https://gribbi.github.io/GetData/.
+https://gribbi.github.io/GetData/
