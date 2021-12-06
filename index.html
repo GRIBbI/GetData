@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/icons/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -828,13 +829,13 @@
       <!-- /.tariff__title -->
       <div class="tariff__term">
         <div class="tariff__term-items">
-          <button class="tariff__term-item">1 месяц</button>
+          <button id="month" class="tariff__term-item">1 месяц</button>
           <!-- /.tariff__term-item -->
-          <button class="tariff__term-item">3 месяца</button>
+          <button id="threeMonths" class="tariff__term-item">3 месяца</button>
           <!-- /.tariff__term-item -->
-          <button class="tariff__term-item">6 месяцев</button>
+          <button id="sixMonths" class="tariff__term-item">6 месяцев</button>
           <!-- /.tariff__term-item -->
-          <button class="tariff__term-item">Год</button>
+          <button id="year" class="tariff__term-item">Год</button>
           <!-- /.tariff__term-item -->
         </div>
         <!-- /.tariff__term-items -->
@@ -846,7 +847,9 @@
             <div class="box__price">
               <div class="box__price-title">Лайт</div>
               <!-- /.box__price-title -->
-              <div class="box__price-item">2400<span class="upper">₽</span><span class="lower">/месяц</span></div>
+              <div class="box__price-item"> <span id="light">2400</span> <span class="upper">₽</span><span
+                  class="lower">/месяц</span>
+              </div>
               <!-- /.box__price-item -->
             </div>
             <!-- /.box__price -->
@@ -885,7 +888,9 @@
             <div class="box__price">
               <div class="box__price-title">Профи</div>
               <!-- /.box__price-title -->
-              <div class="box__price-item">4800<span class="upper">₽</span><span class="lower">/месяц</span></div>
+              <div class="box__price-item"> <span id="profi">4800</span> <span class="upper">₽</span><span
+                  class="lower">/месяц</span>
+              </div>
               <!-- /.box__price-item -->
             </div>
             <!-- /.box__price -->
@@ -924,7 +929,8 @@
             <div class="box__price ">
               <div class="box__price-title">Гуру маркетплейсов</div>
               <!-- /.box__price-title -->
-              <div class="box__price-item">9600<span class="upper">₽</span><span class="lower">/месяц</span>
+              <div class="box__price-item"> <span id="guru">9600</span> <span class="upper">₽</span><span
+                  class="lower">/месяц</span>
               </div>
               <!-- /.box__price-item -->
             </div>
@@ -1192,39 +1198,51 @@
       <div class="questions__content">
         <ul class="questions__items">
           <li class="questions__item">
-            <div class="questions__item-title">Есть ли бесплатная пробная версия для GetData?</div>
-            <!-- /.questions__item-title -->
-            <div class="questions__item-text">Да! У нас есть 7-дневный бесплатный пробный период, в течение которого вы
-              можете изучить и протестировать Amazon SellerApp на свое усмотрение. После пробного периода вы
-              автоматически будете подписаны на план, который выберете в течение пробного периода.</div>
-            <!-- /.questions__item-text -->
+            <details>
+              <summary class="questions__item-title">Есть ли бесплатная пробная версия для GetData?</summary>
+              <!-- /.questions__item-title -->
+              <div class="questions__item-text">Да! У нас есть 7-дневный бесплатный пробный период, в течение которого
+                вы
+                можете изучить и протестировать Amazon SellerApp на свое усмотрение. После пробного периода вы
+                автоматически будете подписаны на план, который выберете в течение пробного периода.</div>
+              <!-- /.questions__item-text -->
+            </details>
           </li>
           <!-- /.questions__item -->
           <li class="questions__item">
-            <div class="questions__item-title">Какие страны поддерживает GetData?</div>
-            <!-- /.questions__item-title -->
-            <!-- <div class="questions__item-text">Да! У нас есть 7-дневный бесплатный пробный период, в течение которого вы
-              можете изучить и протестировать Amazon SellerApp на свое усмотрение. После пробного периода вы
-              автоматически будете подписаны на план, который выберете в течение пробного периода.</div> -->
-            <!-- /.questions__item-text -->
+            <details>
+              <summary class="questions__item-title">Какие страны поддерживает GetData?</summary>
+              <!-- /.questions__item-title -->
+              <div class="questions__item-text">Да! У нас есть 7-дневный бесплатный пробный период, в течение которого
+                вы
+                можете изучить и протестировать Amazon SellerApp на свое усмотрение. После пробного периода вы
+                автоматически будете подписаны на план, который выберете в течение пробного периода.</div>
+              <!-- /.questions__item-text -->
+            </details>
           </li>
           <!-- /.questions__item -->
           <li class="questions__item">
-            <div class="questions__item-title">Сколько стоит GetData?</div>
-            <!-- /.questions__item-title -->
-            <!-- <div class="questions__item-text">Да! У нас есть 7-дневный бесплатный пробный период, в течение которого вы
-              можете изучить и протестировать Amazon SellerApp на свое усмотрение. После пробного периода вы
-              автоматически будете подписаны на план, который выберете в течение пробного периода.</div> -->
-            <!-- /.questions__item-text -->
+            <details>
+              <summary class="questions__item-title">Сколько стоит GetData?</summary>
+              <!-- /.questions__item-title -->
+              <div class="questions__item-text">Да! У нас есть 7-дневный бесплатный пробный период, в течение которого
+                вы
+                можете изучить и протестировать Amazon SellerApp на свое усмотрение. После пробного периода вы
+                автоматически будете подписаны на план, который выберете в течение пробного периода.</div>
+              <!-- /.questions__item-text -->
+            </details>
           </li>
           <!-- /.questions__item -->
           <li class="questions__item">
-            <div class="questions__item-title">Как GetData защищает мои данные? </div>
-            <!-- /.questions__item-title -->
-            <!-- <div class="questions__item-text">Да! У нас есть 7-дневный бесплатный пробный период, в течение которого вы
-              можете изучить и протестировать Amazon SellerApp на свое усмотрение. После пробного периода вы
-              автоматически будете подписаны на план, который выберете в течение пробного периода.</div> -->
-            <!-- /.questions__item-text -->
+            <details>
+              <summary class="questions__item-title">Как GetData защищает мои данные? </summary>
+              <!-- /.questions__item-title -->
+              <div class="questions__item-text">Да! У нас есть 7-дневный бесплатный пробный период, в течение которого
+                вы
+                можете изучить и протестировать Amazon SellerApp на свое усмотрение. После пробного периода вы
+                автоматически будете подписаны на план, который выберете в течение пробного периода.</div>
+              <!-- /.questions__item-text -->
+            </details>
           </li>
           <!-- /.questions__item -->
         </ul>
