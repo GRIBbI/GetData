@@ -1176,18 +1176,18 @@ body {
 }
 
 .box__list-item::before {
-  content: url(/icons/analitic-mark20.svg);
+  content: url(../icons/analitic-mark20.svg);
   height: 20px;
   position: absolute;
   left: -32px;
 }
 
 .box__list-item:last-child::before {
-  content: url(/icons/analitic-mark20-cross.svg);
+  content: url(../icons/analitic-mark20-cross.svg);
 }
 
 .box__list-item.trend::before {
-  content: url(/icons/analitic-mark20.svg);
+  content: url(../icons/analitic-mark20.svg);
   height: 20px;
   position: absolute;
   left: -32px;
