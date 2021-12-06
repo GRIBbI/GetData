@@ -296,6 +296,12 @@ body {
   background-color: #A0A5FF;
 }
 
+.salesmans-btn:focus {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #7379F8;
+}
+
 .salesman {
   width: 45px;
   height: 45px;
@@ -305,6 +311,7 @@ body {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
   z-index: 1;
   position: relative;
+  cursor: pointer;
 }
 
 .manufacturers-btn {
@@ -342,6 +349,12 @@ body {
   background-color: #A0A5FF;
 }
 
+.manufacturers-btn:focus {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #7379F8;
+}
+
 .manufacturer {
   width: 45px;
   height: 45px;
@@ -351,6 +364,7 @@ body {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
   z-index: 1;
   position: relative;
+  cursor: pointer;
 }
 
 .online-stores-btn {
@@ -387,6 +401,12 @@ body {
   background-color: #A0A5FF;
 }
 
+.online-stores-btn:focus {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #7379F8;
+}
+
 .online-store {
   width: 45px;
   height: 45px;
@@ -396,7 +416,7 @@ body {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
   z-index: 1;
   position: relative;
-
+  cursor: pointer;
 }
 
 /*
@@ -523,6 +543,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 .topic-3__contant {
@@ -615,8 +636,6 @@ body {
                             #+#       #+# #+#     #+# #+#   #+#+# #+#    #+# #+#      #+#     #+# #+#    #+#    #+#
                             ###       ### ###     ### ###    ####  ########  ###      ###     ###  ########     ###
 */
-
-
 .container--manufacturer {
   display: flex;
   display: none;
@@ -1542,10 +1561,7 @@ body {
 .questions__item {
   padding: 25px 0;
   border-bottom: 1px solid #D7D7D7;
-  list-style-image: url(/icons/questions-plus.svg);
   list-style-type: none;
-  list-style-position: calc(10px+20px);
-  cursor: pointer;
 }
 
 .questions__item:hover {
@@ -1555,8 +1571,6 @@ body {
 
 .questions__item:hover {
   color: #FFB16A;
-  list-style-image: url(/icons/questions-plus-ora.svg);
-
 }
 
 .questions__item-title {
@@ -1565,6 +1579,45 @@ body {
   line-height: 20px;
   margin-bottom: 15px;
 }
+
+details summary::-webkit-details-marker {
+  display: none
+}
+
+details>summary {
+  list-style: none;
+  position: relative;
+}
+
+
+summary {
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+summary:active {
+  border-bottom: 1px solid #FFB16A;
+  filter: drop-shadow(10px 5px 15px rgba(115, 121, 248, 0.2));
+}
+
+summary:active {
+  color: #FFB16A;
+}
+
+details summary:before {
+  content: '\2795';
+  font-size: 16px;
+  left: -28px;
+  position: absolute;
+}
+
+details[open] summary:before {
+  content: '\2014';
+  font-size: 16px;
+  font-style: italic;
+  position: absolute;
+}
+
 
 .questions__item-text {
   font-size: 14px;
