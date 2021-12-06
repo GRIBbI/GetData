@@ -758,7 +758,7 @@ body {
 }
 
 .analitic__items li::before {
-  content: url(/icons/analitic-mark.svg);
+  content: url(../icons/analitic-mark.svg);
   height: 25px;
   position: absolute;
   left: -35px;
@@ -1009,7 +1009,7 @@ body {
 }
 
 .evaluation__items li::before {
-  content: url(/icons/analitic-mark.svg);
+  content: url(../icons/analitic-mark.svg);
   height: 25px;
   position: absolute;
   left: -35px;
